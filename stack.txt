@@ -1,1 +1,1 @@
-Html,Css,Js,Vue.js,Vuex,Sass,Pug
+HTML, CSS, JS, Vue.JS, Vuex, Sass, Pug
