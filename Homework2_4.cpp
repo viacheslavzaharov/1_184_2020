@@ -1,12 +1,8 @@
 ﻿//На экране выводятся символы , перекрывая консоль ровно до того момента пока пользователь не введет любое число
-
-
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
-
 using namespace std;
-
 int main()
 {
 	setlocale(LC_ALL, "RUS");
@@ -87,16 +83,13 @@ int main()
 		cout << "Было введено число 9" << endl;
 		break;
 	case 10:
-		cout << " 0 - это не число, но Вы его ввели, ладно..." << endl;
+		cout << "Был введен ноль" << endl;
 			break;
 	
 	default:
 		cout << "Вы не ввели число, попробуйте заново." << endl;
 		break;
 	}
-
-
-
 	return 0;
 }
 
