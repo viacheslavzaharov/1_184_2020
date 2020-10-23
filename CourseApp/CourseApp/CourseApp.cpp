@@ -30,6 +30,20 @@ int main(int argc, char *argv[])
 	display(width, height, buffer, drawSymbols, drawEmpty);
 	
 	removeBuff(width, height, buffer);
+
+	// solving calc
+	double a = 2.0;
+	double b = 4.4;
+	std::cout << "y=" << calc(a, b, 2.7) << std::endl;
+
+	taskA(a, b, 0.8, 2, 0.2);
+
+	std::cout << "Task B" << std::endl;
+	double *X = new double[4]{ 1.3, 1.7, 1.9 , 2.5 };
+	taskB(a, b, X, 4);
+	delete[] X;
+
+	
 	return 0;
 }
 
