@@ -31,8 +31,8 @@ void TaskB()
 {
 	double y = 0;
 	cout << "TASK B" << endl;
-	double x[5] { 0.2, 0.3, 0.38, 0.43, 0.57} ;
-	for (int i = 0; i <= 5; i++)
+	double x[5]{ 0.2, 0.3, 0.38, 0.43, 0.57 };
+	for (int i = 0; i < 5; i++)
 	{
 		double y = function(x[i]);
 		cout << "FOR X=" << x[i] << ", Y=" << y << endl;
