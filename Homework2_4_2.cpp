@@ -1,6 +1,3 @@
-﻿// Homework2_4_2.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
 #include <iostream>
 #include <conio.h>
 #include <stdio.h>
